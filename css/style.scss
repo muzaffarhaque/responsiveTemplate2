@@ -1,0 +1,246 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+// ================= COMMON CSS START ===============================
+.mb-flex,
+.mb-show {
+    display: none;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 8%;
+}
+.w-51 {
+    width: 50%;
+}
+.primary-btn {
+    background: #1492E6 0 0 no-repeat padding-box;
+    box-shadow: 0 16px 48px #00000029;
+    border-radius: 33px;
+    padding: 14px 45px;
+    outline: none;
+    border: none;
+}
+.float-end-mb {
+    float: right;
+}
+.fw-600 {
+    font-weight: 600;
+}
+// ================= COMMON CSS END ===============================
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// ================ FONT SIZE START=========================================
+.fs-19 {
+    font-size: 19px;
+    line-height: 24px;
+}
+.fs-40-30 {
+    font-size: 40px;
+    line-height: 54px;
+}
+.fs-18 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.fs-23 {
+    font-size: 23px;
+    line-height: 31px;
+}
+.fs-35-27 {
+    font-size: 35px;
+    line-height: 47px;
+}
+.fs-24 {
+    font-size: 24px;
+    line-height: 32px;
+}
+.fs-21 {
+    font-size: 21px;
+    line-height: 28px;
+}
+.fs-12 {
+    font-size: 12px;
+    line-height: 16px;
+}
+.fs-13 {
+    font-size: 13px;
+    line-height: 18px;
+}
+// ================ FONT SIZE END=========================================
+// 
+// 
+// 
+// 
+// 
+// 
+// ================== HEADER STYLE START ===========================
+.logo {
+    margin: 20px 0 0;
+}
+
+.header-nav-orderList {
+
+    .heaser-ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #707070;
+        padding-bottom: 16px;
+        margin: 0;
+        gap: 55px;
+        li {
+            font-weight: bold;
+            cursor: pointer;
+
+        }
+    }
+}
+// ================== HEADER STYLE END ===========================
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// ============== hero section start ========================
+.hero-image {
+    width: 100%;
+    float: right;
+    margin-right: -84px;
+}
+.second-container {
+    padding: 80px 0 110px;
+    background-color: #F8FAFC;
+}
+.card-box {
+    width: 100%;
+    max-width: 308px;
+    padding: 40px 14px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 19px;
+}
+.img-card-box {
+    width: 100%;
+    max-width: 328px;
+}
+.card-main-frame-third {
+    padding: 100px 0;
+}
+// ============== hero section end ========================
+
+// 
+// 
+// 
+// 
+.third-section {
+    padding-top: 90px;
+}
+.row-imgs {
+    width: 60px;
+}
+
+// =============== FIFTH SECTION STAT ====================
+.fift-section {
+    padding: 100px 0;
+}
+.back-frame {
+    position: relative;
+    padding: 100px 0;
+    .glass-frame {
+        position: absolute;
+        width: 106%;
+        left: -55px;
+        z-index: -1;
+        height: 363px;
+        background: #F8FAFC 0 0 no-repeat padding-box;
+        box-shadow: 0 16px 48px #00000029;
+        border-radius: 42px;
+    }
+}
+.star-rate {
+    width: 14px;
+    height: 14px;
+}
+.black-615 {
+    color: #615C5C !important;
+}
+.glass-card-box {
+    max-width: 300px;
+    width: 100%;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 16px 48px #00000029;
+    border-radius: 30px;
+    padding: 21px 28px 35px;
+}
+.arrow-btn {
+    position: absolute;
+    width: 62px;
+    height: 63px;
+    top: 50%;
+    right: -46px;
+    z-index: 1;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 7px 17px #00000029;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    color: #707070;
+}
+// =============== FIFTH SECTION END ====================
+
+// 
+// 
+// 
+// 
+// 
+// =============== six-section SECTION END ====================
+.six-section {
+    padding: 200px 0;
+}
+.brand-name {
+    max-width: 300px;
+    width: 100%;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+// =============== six-section SECTION END ====================
+.footer {
+    height: 369px;
+    background: #000000 0 0 no-repeat padding-box;
+    border: 1px solid #707070;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 52px;
+}
